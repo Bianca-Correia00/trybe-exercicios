@@ -1,2 +1,2 @@
 # trybe-exercicios
-Exercícios do curso de Front-End para estudo e organização.
+Repositório dedicado aos exercícios feitos no meu curso de Front-End.
