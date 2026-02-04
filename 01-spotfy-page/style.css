@@ -1,7 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
+
 header {
   background-color: black;
   display: flex;
@@ -27,6 +33,10 @@ header div {
   list-style: none;
 }
 
+.menu li:hover {
+  color: #8a5ca3;
+}
+
 .menu li {
   margin-left: 24px;
 }
@@ -43,7 +53,7 @@ header div {
 
 .section-premium h1 {
   font-size: 40px;
-  padding: 40px 0;
+  padding: 100px 0 16px;
 }
 
 .section-premium h2 {
@@ -53,7 +63,7 @@ header div {
 
 .section-premium p {
   margin-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 100px;
   font-size: 12px;
 }
 
@@ -67,6 +77,11 @@ header div {
   padding: 16px 32px;
   border-radius: 32px;
   border: solid black;
+  margin-right: 16px;
+}
+
+#btn-comece-agora:hover {
+  padding: 20px 40px;
 }
 
 #btn-ver-planos {
@@ -133,6 +148,7 @@ header div {
 
 .credit-cards img {
   width: 32px;
+  margin-bottom: 40px;
 }
 
 .section-tableplans {
@@ -150,21 +166,19 @@ header div {
   flex-direction: column;
   align-items: flex-start;
   height: 700px;
-  /*max-width: 300px;*/
   font-size: 18px;
-  /* margin: 20px; */
   padding: 16px;
-  /* alteraçoes*/
   box-sizing: border-box;
   flex: 0 1 300px;
   margin: 0px;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .tag-month {
   background-color: rgb(13, 114, 234);
   color: aliceblue;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 5px;
 }
 
@@ -183,6 +197,16 @@ header div {
   font-size: 16px;
   margin-bottom: 20px;
   list-style-type: disc;
+}
+
+.duo_h2,
+.h2_familia {
+  margin-top: 30px;
+}
+
+.price_duo,
+.price_familia {
+  margin-bottom: 40px;
 }
 
 .button_principal {
@@ -208,14 +232,17 @@ header div {
   font-size: 12px;
 }
 
+.conditions {
+  margin-top: auto;
+}
+
 .button-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  /* alteraçoes*/
   align-self: stretch;
   width: 100%;
-  margin-top: 24px;
+  margin-top: auto;
   box-sizing: border-box;
   min-width: 0;
 }
@@ -232,4 +259,46 @@ header div {
   display: block;
   box-sizing: border-box;
   margin: 0;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 70px 10%;
+}
+
+.footer div ul {
+  color: #efefef;
+  list-style-type: none;
+}
+
+.footer a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+.footer li:nth-child(1) {
+  padding-bottom: 20px;
+  color: #8d8d8d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer li {
+  padding: 10px 20px;
+}
+
+.footer img {
+  padding-right: 20px;
+}
+
+.footer i {
+  color: #efefef;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.icons-footer {
+  padding: 10px;
 }
